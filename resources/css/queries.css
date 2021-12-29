@@ -1,0 +1,180 @@
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1556px){
+  html{
+      font-size: 16px;
+  }
+  .heading-main-box{
+      transform: translate(-35%,-50%);
+  }
+  form{
+      margin-left: 30%;
+  }
+}
+ 
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1300px){
+     .logo{
+        width: 300px;
+        margin-left: 40px;
+     }
+     .main-nav{
+         margin-top: 30px;
+         margin-right: 15px;
+     }
+     .main-nav li{
+         margin-right: 10px;
+     }
+     .heading-main-box{
+         transform: translate(-17%,-50%);
+     }
+     .product-section .btn{
+         width: 70%;
+         margin-left: 15%;
+         
+     }
+     .products-box{
+         width: 90%;
+     }
+     h3{
+         font-size: 90%;
+     }
+     .products-box ul li{
+         margin-left: 10px;
+     }
+     .products-box .small-icon{
+         margin-right: 5px;
+     }
+     .social-icon li{
+         margin-left: 10px;
+     }
+
+     .information i{
+         display: block;
+     }
+
+     .information li{
+         font-size: 14px;
+     }
+}
+ 
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px){
+  .col{
+      width: 100%;
+  }
+  .main-nav{
+      display: none;
+  }
+  .logo{
+      width: 350px;
+      margin-left: 15%;
+  }
+  .study{
+      word-spacing: 2px;
+      font-size: 250%;
+  }
+  .heading-main-box{
+      transform: translate(-13%,-90%);
+  }
+  .heading-main-box .btn{
+      width: 10%;
+  }
+  .about-section .row .p-long{
+      font-size: 20px;
+  }
+  .about-section{
+      text-align: center;
+  }
+  .about-section img{
+      width: 70%;
+  }
+  .picture-title{
+      font-size: 25px;
+      transform: translate(50%,50%);
+      font-weight: 300;
+  }
+  .products-box{
+      width: 60%;
+      margin-top: 10px;
+      margin-left: 20%;
+  }
+  .products-box ul li {
+      margin-left: 25%;
+  }
+
+  .testimonials-section .row .col {
+      margin-bottom: 40px;
+  }
+  .logo-sponsors{
+      width: 80%;
+  }
+  figcaption{
+      visibility: hidden;
+  }
+  form{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 20px;
+  }
+  .contact-section .row .btn{
+      margin-top: 10px;
+  }
+
+  .information{
+      margin-top: 15px;
+      text-align: center;
+  }
+  .information li{
+      font-size: 150%;
+  }
+  .social-icon{
+      text-align: center;
+  }
+  .social-icon li {
+      font-size: 40px;
+  }
+  .mobile-nav-icon{
+      display:block;
+  }
+}
+@media only screen and (max-width:570px) {
+    .mobile-nav-icon{
+        top:50px;
+        right: 20px;
+    }
+}
+
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 490px){
+   html{
+       font-size: 12px;
+   }
+   .study{
+    word-spacing: 2px;
+    font-size: 250%;
+}
+    .logo{
+        width: 220px;
+        margin-top:15%;
+    }
+    .heading-main-box{
+        transform: translate(-9%,-90%);
+    }
+    .heading-main-box .btn{
+        display: block;
+        margin-top: 5px;
+        margin-left: 4%;
+    }
+    .mobile-nav-icon{
+        top: 120px;
+        right: 70px;
+    }
+}
+@media only screen and (max-width:400px){
+    .mobile-nav-icon{
+        right: 50px;
+    }
+    .sticky .logo{
+        width: 200px;
+    }
+}
